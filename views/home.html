@@ -1,132 +1,168 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://fontawesome.com/v5/search?m=free
-    ">
-    <link rel="stylesheet" href="/css/style.css" >
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <script
+      src="https://kit.fontawesome.com/b56dbb4480.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://fontawesome.com/v5/search?m=free" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
     <title>Mercado Liebre</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <header>
-        <img src= "/images/logo-mercado-liebre.svg">
-        <form>
-            <input type="search" name="Busqueda aqui">
-            <input type="submit" value="Buscar">
-        </form>
-        <p>Comprá en cuotas y sin tarjeta de crédito</p>
+      <div class="top-header">
+        <div class="logo">
+          <img
+            src="/images/logo-mercado-liebre.svg"
+            alt="Logo de Mercadoliebre"
+          />
+        </div>
+        <div class="form" action="#" method="GET">
+          <div class="input">Buscar productos, marcas y más</div>
+          <div class="submit"><i class="fa fa-search"></i></div>
+        </div>
+        <p>
+          <i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin
+          tarjeta de crédito
+        </p>
+      </div>
 
-        <ul>
-            <li><a href="#">Ofertas</a></li>
-            <li><a href="#">Tiendas oficiales</a></li>
-            <li><a href="#">Vender</a></li>
-            <li><a href="#">Ayuda</a></li>
-        </ul>
+      <ul class="ul__nav">
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Tiendas oficiales</a></li>
+        <li><a href="#">Vender</a></li>
+        <li><a href="#">Ayuda</a></li>
+      </ul>
 
-        <ul>
-            <li><a href="#">Crea tu cuenta</a></li>
-            <li><a href="#">Ingresa</a></li>
-            <li><a href="#">Mis compras</a></li>
-        </ul>
+      <ul class="ul__log">
+        <li>
+          <a href="#">Crea tu cuenta</a><i class="fa-solid fa-address-card"></i>
+        </li>
+        <li>
+          <a href="#">Ingresa</a
+          ><i class="fa-solid fa-arrow-right-to-bracket"></i>
+        </li>
+        <li>
+          <a href="#">Mis compras</a><i class="fa-solid fa-basket-shopping"></i>
+        </li>
+      </ul>
 
+      <div class="burger-menu">
+        <i class="fas fa-bars"></i>
+      </div>
     </header>
 
     <main>
-        <section>
-            <h2 class="Titulares">Basado en tu última visita</h2>
+      <section>
+        <h3 class="Titulares">Basado en tu última visita</h3>
+        <div class="products">
+          <article>
+            <img src="/images/img-cafetera-moulinex.jpg" />
+            <div class="main-product">
+              <p class="Precios">$6.770</p>
+              <p class="Descuentos">40% OFF</p>
+              <h4 class="Descrip"><strong>Cafetera Moulinex</strong></h4>
+            </div>
+          </article>
+          <article>
+            <img src="/images/img-macbook-pro-2019.jpg" />
+            <p class="Precios">$230.000</p>
+            <p class="Descuentos">20% off</p>
+            <h4 class="Descrip"><strong>MacBook Pro 2019</strong></h4>
+          </article>
+          <article>
+            <img src="/images/img-samsung-galaxy-s10.jpg" />
+            <p class="Precios">$70.500</p>
+            <p class="Descuentos">10% off</p>
+            <h4 class="Descrip"><strong>Samsung Galaxy S10</strong></h4>
+          </article>
+          <article>
+            <img src="/images/img-tv-samsung-smart.jpg" />
+            <p class="Precios">$23.200</p>
+            <p class="Descuentos">5% off</p>
+            <h4 class="Descrip"><strong>SmartTv Samsung 43"</strong></h4>
+          </article>
+        </div>
+      </section>
 
-            <article>
-                <img src="/images/img-cafetera-moulinex.jpg">
-                <div class="Precios"> $6.770 </div>
-                <div class="Descuentos">40% OFF</div> 
-                <div class="Descrip"><strong>Cafetera Moulinex</strong> </div> 
-            </article>
+      <section>
+        <h3 class="Titulares">Sección de Ofertas</h3>
 
-            <article>
-                <img src="/images/img-macbook-pro-2019.jpg">
-                <div class="Precios">$230.000</div>
-                <div class="Descuentos">20% off</div>
-                <div class="Descrip"><strong>MacBook Pro 2019</strong></div>
+        <div class="products">
+          <article>
+            <img src="/images/img-cafetera-moulinex.jpg" />
+            <p class="Precios">$6.770</p>
+            <p class="Descuentos">40% OFF</p>
+            <h4 class="Descrip"><strong>Cafetera Moulinex</strong></h4>
+          </article>
 
-            </article>
+          <article>
+            <img src="/images/img-macbook-pro-2019.jpg" />
+            <p class="Precios">$230.000</p>
+            <p class="Descuentos">20% off</p>
+            <h4 class="Descrip"><strong>MacBook Pro 2019</strong></h4>
+          </article>
 
-            <article>
-                <img src="/images/img-samsung-galaxy-s10.jpg">
-                <div class="Precios">$70.500</div>
-                <div class="Descuentos">10% off</div> 
-                <div class="Descrip"><strong>Samsung Galaxy S10</strong></div> 
+          <article>
+            <img src="/images/img-samsung-galaxy-s10.jpg" />
+            <p class="Precios">$70.500</p>
+            <p class="Descuentos">10% off</p>
+            <h4 class="Descrip"><strong>Samsung Galaxy S10</strong></h4>
+          </article>
 
-            </article>
-
-            <article>
-                <img src="/images/img-tv-samsung-smart.jpg">
-                <div class="Precios">$23.200</div>
-                <div class="Descuentos">5% off</div>  
-                <div class="Descrip"><strong>SmartTv Samsung 43"</strong></div>  
-            </article>
-           
-        </section>
-           
-        <section>
-            <h2 class="Titulares">Sección de Ofertas</h2>
-            <article>
-                <img src="/images/img-cafetera-moulinex.jpg">
-                <div class="Precios"> $6.770 </div>
-                <div class="Descuentos">40% OFF</div> 
-                <div class="Descrip"><strong>Cafetera Moulinex</strong> </div> 
-            </article>
-
-            <article>
-                <img src="/images/img-macbook-pro-2019.jpg">
-                <div class="Precios">$230.000</div>
-                <div class="Descuentos">20% off</div>
-                <div class="Descrip"><strong>MacBook Pro 2019</strong></div>
-
-            </article>
-
-            <article>
-                <img src="/images/img-samsung-galaxy-s10.jpg">
-                <div class="Precios">$70.500</div>
-                <div class="Descuentos">10% off</div> 
-                <div class="Descrip"><strong>Samsung Galaxy S10</strong></div> 
-
-            </article>
-
-            <article>
-                <img src="/images/img-tv-samsung-smart.jpg">
-                <div class="Precios">$23.200</div>
-                <div class="Descuentos">5% off</div>  
-                <div class="Descrip"><strong>SmartTv Samsung 43"</strong></div>  
-            </article>
-
-        </section>
-
+          <article>
+            <img src="/images/img-tv-samsung-smart.jpg" />
+            <p class="Precios">$23.200</p>
+            <p class="Descuentos">5% off</p>
+            <h4 class="Descrip"><strong>SmartTv Samsung 43"</strong></h4>
+          </article>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <section>
-            <h2><strong>Paga con tarjeta o en efectivo</strong></h2>
-            <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
-                puntos de pago. ¡Y siempre es seguro!</p>
-        </section>
+      <section>
+        <div>
+          <i class="fa-solid fa-credit-card iconos-footer"></i>
+          <h2>Paga con tarjeta o en efectivo</h2>
+          <p>
+            Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o
+            efectivo en puntos de pago. ¡Y siempre es seguro!
+          </p>
+        </div>
 
-        <section>
-            <h2><strong>Envios gratis desde los $2.500</strong></h2>
-            <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
-                productos. Es un beneficio de Mercado Puntos.</p>
-        </section>
+        <div>
+          <i class="fa-solid fa-gift iconos-footer"></i>
+          <h2>Envios gratis desde los $2.500</h2>
+          <p>
+            Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en
+            miles de productos. Es un beneficio de Mercado Puntos.
+          </p>
+        </div>
 
-        <section>  
-            <h2><strong>Seguridad de principio a fin</strong></h2>
-            <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
-                porque estás siempre protegid@.</p>
-        </section>
-
-        <section>Copyright © 1999-2020 MercadoLiebre S.R.L.</section>
+        <div>
+          <i class="fa-solid fa-user-shield iconos-footer"></i>
+          <h2>Seguridad de principio a fin</h2>
+          <p>
+            ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no
+            puedas hacer, porque estás siempre protegid@.
+          </p>
+        </div>
+      </section>
+      <h3 class="copy-right">Copyright © 1999-2020 MercadoLiebre S.R.L.</h3>
     </footer>
-
-</body>
+  </body>
 </html>

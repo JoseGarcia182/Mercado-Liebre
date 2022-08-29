@@ -1,28 +1,121 @@
 *{
-    background-color: #EAC926;
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+  margin: 0px;
+  padding: 0px;    
+  box-sizing: border-box;
 }
 
-.Titulares{
-    font-size: 24px;
+body{
+  font-family: "Roboto", sans-serif;
+  background-color: #ebebeb;
 }
 
-.Precios{
-    font-size: 18px;
+header{
+  background-color: #EAC926;
 }
 
-.Descuentos{
-    font-size: 16px;
+h3{
+  font-size: 24px;
 }
 
-.Descrip{
-    font-size: 16px;
+p{
+  font-size: 12px;
 }
 
-/* 
-Cuerpos de texto: 12px
-Titulares (Basado en tu última visita/Ofertas): 24px
-Precios: 18px
-Descuentos: 16px
-Descripciones: 16px */
+div.top-header{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+
+header div.top-header p{
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+header div.logo,
+header .form{
+  width: 50%;
+}
+
+header div.logo{
+  padding: 10px;
+}
+header .form{
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  font-size: 11px;
+}
+header nav{
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+header ul li{
+  list-style-type: none;
+}
+
+header ul li a{
+  text-decoration: none;
+  color: #000;
+}
+
+header .form .input{
+  background-color: #FFF;
+  border: 1px solid #000;
+  outline: none;
+  color: #666;
+  padding: 2px;
+}
+
+header .form .submit{
+  background-color: #FFF;
+  border: 1px solid #000;
+  color: #666;
+  width: 10%;
+}
+
+div.burger-menu{
+  text-align: center;
+}
+
+div.burger-menu i{ 
+  background-color: #1259c3;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+  margin: 10px 0px 20px 0px;
+  padding: 10px;
+} 
+
+footer section{
+  margin: 0 auto;
+  width: 90%;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+
+footer section div{
+  text-align: center;
+  margin: 10px;
+}
+
+.iconos-footer{
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #1259c3
+}
+
+footer h3{
+  font-size: 15px;
+  opacity: 30%;
+  
+}
+
+
+
+

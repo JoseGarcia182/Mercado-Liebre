@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const app = express();
 
-app.listen(3030, () => console.log("servidor andando"));
+app.listen(process.env.PORT || 3030, () => console.log("servidor andando"));
 
 const publicPath = path.resolve (__dirname, './public');
 app.use( express.static(publicPath) );
