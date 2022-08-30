@@ -5,7 +5,7 @@ const app = express();
 app.listen(process.env.PORT || 3030, () => console.log("servidor andando"));
 
 
-app.use( express.static("Public"));
+app.use( express.static("public"));
 
 
 
