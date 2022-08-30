@@ -13,6 +13,11 @@ header{
   background-color: #EAC926;
 }
 
+.logo{
+  width: 100px;
+}
+
+
 h3{
   font-size: 24px;
 }
@@ -40,6 +45,7 @@ header .form{
 
 header div.logo{
   padding: 10px;
+  width: 400px;
 }
 header .form{
   display: flex;
@@ -73,7 +79,8 @@ header .form .submit{
   background-color: #FFF;
   border: 1px solid #000;
   color: #666;
-  width: 10%;
+  width: 15px;
+  height: 18px;
 }
 
 div.burger-menu{
@@ -116,6 +123,60 @@ footer h3{
   
 }
 
+main{
+  width: 90%;
+  margin: auto;
+}
+
+
+.titulares{
+  font-size: 24px;
+  margin: 30px 0px;
+  color: #666666;
+}
+
+section article .main-product{
+  width: 100%;
+  border-top: #ebebeb 1px solid;
+  padding: 15px;
+  position: relative;
+}
+
+.products{
+  display: flex;
+}
+
+main section article{
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+main section article .product-picture{
+  width: 100%;
+}
+
+main section article .Descrip{
+  font-size: 16px;
+  font-weight: bold;
+  color: #666666;
+  margin: 20px 0px 0px 0px;
+}
+
+main section .main-product {
+  display: flex;
+}
+
+main article .main-product .Precios {
+  flex-grow: 0.3;
+  font-size: 18px;
+}
+
+main article .main-product .Descuentos {
+  flex-grow: 0.7;
+  font-size: 16px;
+  color: #40b54b;
+}
 
 
 
