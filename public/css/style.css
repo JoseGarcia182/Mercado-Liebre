@@ -25,15 +25,9 @@ header{
 }
 
 
-.container-search{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 100vw;
-}
 
 .container {
-  width: 100%;
+  width: 52%;
   padding: 5px;
   display: flex;
   align-items: center;
@@ -270,25 +264,134 @@ footer h3{
 
 
 /*navegacion en Tablet*/
-@media (min-width: 361px){
+@media (min-width: 768px){
+  header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  header .top-header .logo {
+      width: 600px;
+  }
+  
+  .top-header{
+    flex-wrap: nowrap;
+    width: 100vw;
+  }
+  .container{
+    width: 40%;
+  }
+  
+  .main-navbar{
+    justify-content: space-between;
+    display: flex;
+    width: 100vw;
+    font-size: 15px;
+  }
+  
+  .main-navbar ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+  
+  .main-navbar li {
+    margin: 0px 15px;
+    padding: 5px;
+  }
+  
+  .main-navbar .ul-log{
+    justify-content: flex-end;
+  }
+  .main-navbar .ul-log li a{
+    padding-right: 10px;
+  }
+  
+  form.search-bar input {
+      font-size: 14px;
+  }
+  form.search-bar button {
+      font-size: 14px;
+      
+  }
+  
+  
+  main section article .Descrip{
+    display: block;
+  }
+  
+  .burger-menu{
+    display: none;
+  }
+  
+  .product:hover{
+    box-shadow: 0px 0px 2px black;
+    transition: all 450ms;
+  }
+  .products{
+    flex-direction: row;
+  }
+  .product {
+      width: 50%;
+  }
+  footer {
+      display: flex;
+      position: relative;
+  }
+  footer .copy-right {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      margin-top: 10px;
+  }
 
 }
 
 /*Navegacion en Escritorio*/
 @media (min-width: 769px){
-  .logo {
-    max-width: 600px;
+
+header {
+  display: flex;
+  flex-wrap: wrap;
 }
-main section article .Descrip{
-  display: block;
+
+header .top-header .logo {
+    width: 600px;
+}
+
+.top-header{
+  flex-wrap: nowrap;
+  width: 100vw;
+}
+.container{
+  width: 40%;
+}
+
+.main-navbar{
+  justify-content: space-between;
+  display: flex;
+  width: 100vw;
+  font-size: 15px;
+}
+
+.main-navbar ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
 }
 
 .main-navbar li {
-    margin: 0 10px;
+  margin: 0px 15px;
+  padding: 5px;
 }
-.main-navbar a {
-    font-size: 16px;
+
+.main-navbar .ul-log{
+  justify-content: flex-end;
 }
+.main-navbar .ul-log li a{
+  padding-right: 10px;
+}
+
 form.search-bar input {
     font-size: 14px;
 }
@@ -296,8 +399,18 @@ form.search-bar button {
     font-size: 14px;
     
 }
+
+
+main section article .Descrip{
+  display: block;
+}
+
+.burger-menu{
+  display: none;
+}
+
 .product:hover{
-  box-shadow: 0px 0px 2px black;
+  box-shadow: 0px 0px 25px -5px black;
   transition: all 450ms;
 }
 .products{
@@ -316,16 +429,7 @@ footer .copy-right {
     bottom: 0;
     margin-top: 10px;
 }
-.burger-menu{
-  display: none;
-}
-header{
-  display: flex;
-}
-.main-navbar{
-  flex-direction: row;
-  justify-content: flex-start;
-}
+
 
 }
 
