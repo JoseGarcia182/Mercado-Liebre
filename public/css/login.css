@@ -1,0 +1,295 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+
+div.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5%;
+    width: 100%;
+}
+
+header .cuotas{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+header div.logo{
+    padding: 10px;
+}
+
+header nav{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+    /* SEARCH BAR */
+
+header .container{ 
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+        
+header div .search-bar{
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+}
+        
+.search-bar input{
+    background: white;
+    flex: 1;
+    width: 92%;
+    border: 0;
+    height: 30px;
+    outline: none;
+    padding: 24px 20xp;
+    font-size: 14px;
+    border-radius: 5px 0px 0px 5px;
+}
+        
+.search-bar button{
+    background: white;
+    width: 8%;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left-color: rgba(178, 171, 171, 0.514);
+    height: 30px;
+    outline: none;
+    font-size: 14px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    width: 100%;
+}
+
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+div.last-visit,
+div.offers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+header nav {
+    display: none;
+}
+
+    /* LOGIN */
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main .login-completo{
+    text-align: center;
+}
+
+main form .login{
+    margin: 15px;
+    padding: 6px;
+    height: 35px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 4px;
+    border: none;    
+}
+
+main form .login-enviar{
+    width: 80%;
+    max-width: 600px;
+    height: 35px;
+    margin: 15px;
+    color: white;
+    background-color: rgb(27, 57, 176);
+    border-radius: 5px;
+    border: none;
+}
+
+        /* FOOTER */
+footer{
+    background-color: white;
+}
+
+footer div.info-slide, .copyright{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    padding: 5px 20px 20px 20px;
+}
+
+footer div i{
+   color: #0044AA;
+   font-size: 30px;
+}
+
+
+
+ main section article .description{
+    display: block;
+}
+
+
+footer{
+    background-color: white;
+}
+
+
+
+
+@media (max-width: 600px){
+    header div.logo{
+        width: 70%;
+        padding: 10px;
+    }
+
+    header div.cuotas{
+        width: 100%;
+    }
+}
+
+@media (min-width: 601px){
+
+    div.burger-menu{
+        display: none;
+    }
+
+    header div.logo{
+        width: 50%;
+        padding: 10px;
+    }
+    
+    main section div.products{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    main section div.products article{
+        width: 45%;
+    }
+
+    .price,
+    .discount{
+        width: 50%;
+    }
+
+    /* Seccion navbar */
+
+    header nav {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        padding-right: 20px;
+    }
+    
+    .main-navbar{
+        justify-content: space-between;
+    }
+
+    .main-navbar ul {
+        display: flex;
+        list-style: none;
+    }
+
+    .main-navbar li {
+        margin: 0px 10px;
+        padding: 5px;
+    }
+
+    header div.top-header{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+}
+
+
+
+@media (min-width: 992px){
+    main section div.products article{
+        width: 22%;
+    }
+
+    footer div.pie {
+        display: flex;
+    }
+
+    footer div.info-slide{
+      text-align: center;
+    }
+    
+    header .main-navbar{
+        font-size: 16px;
+    }
+}
